@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    color: black;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.video_content {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  }
+.contain{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title{
+position: fixed;
+right: 300;
+bottom: 200;
+}
+
+.title-content{
+    position: fixed;
+    /* left: 50px;
+    top: 30px; */
+    font-size: 1.5em;
+    font-family: 'Anton', sans-serif;
+}
+.time-container{
+    position: fixed;
+    /* bottom: 600; */
+    /* left: 650;
+    bottom: 400; */
+    display: flex;
+    margin-top: 20%;
+    font-family: 'Yeon Sung', cursive;
+}
+.first{
+    border: 2px solid steelblue;
+    background-color: teal;
+    padding: 10px;
+    margin-right: 2%;
+    text-align: center;
+}
+.second{
+    border: 2px solid steelblue;
+    background-color: teal;
+    padding: 10px;
+    margin-right: 2%;
+    text-align: center;
+}
+.third{
+    border: 2px solid steelblue;
+    background-color: teal;
+    padding: 10px;
+    margin-right: 2%;
+    text-align: center;
+}
+.fourth{
+    border: 2px solid steelblue;
+    background-color: teal;
+    padding: 15px;
+    text-align: center;
+}
+
+.quote{
+    position: fixed;
+    top: 0;
+    left: 100;
+    font-family: 'Hanalei Fill', cursive;
+    font-size: 1.1em;
+    color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px 10px 0px 100px;
+    padding:10px;
+    width:  50%;
+    background-color: blanchedalmond;
+}
